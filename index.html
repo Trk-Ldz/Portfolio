@@ -5,9 +5,9 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Tarik Bouabid Portfolio</title>
 <meta name="description" content="Portfolio UX/UI de Tarik Bouabid, product designer.">
-<link rel="icon" href="/favicon.ico" sizes="48x48">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="icon" href="favicon.ico?v=2" sizes="48x48">
+<link rel="icon" href="favicon.svg?v=2" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png?v=2">
 <meta name="theme-color" content="#181616">
 <style>:root{color-scheme:dark}body{margin:0;background:#181616}img{max-width:100%}[hidden]{display:none!important}</style>
 <meta name="claude:viewport-fit-sides" content="cover">
@@ -403,7 +403,7 @@ body.loading .frame{transform:translateY(-1.5rem)}
 <!-- Contact -->
 <aside class="panel panel--contact" id="panel-contact" aria-label="Contact" tabindex="-1">
   <div>
-    <h2 class="t-display" id="contact-title" data-edit="site.contact.title"></h2>
+    <h2 class="t-display" id="contact-title" data-edit="site.contact.title" style="white-space:pre-line"></h2>
     <p class="t-body" style="margin-top:var(--s-25)" id="contact-body" data-edit="site.contact.body"></p>
     <dl class="c-links t-label rv" style="--i:2" id="contact-links"></dl>
 
@@ -1531,7 +1531,7 @@ const SITE = {
     ]
   },
   contact: {
-    title: "Un projet ? Parlons-en.",
+    title: "Un projet\u00A0?\nParlons-en.",
     body: "Un poste, une mission ou un produit à rendre plus simple : écris-moi quelques lignes, je réponds sous 48 h."
   }
 };
